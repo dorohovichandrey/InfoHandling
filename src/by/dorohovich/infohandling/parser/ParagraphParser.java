@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class ParagraphParser implements CompositeTextElementParser {
 
-    final static String REGEX_FOR_SENTENCE ="[A-Z].*[\\.?!]";
+    final static String REGEX_FOR_SENTENCE ="[A-Z]+[^\\.!\\?]*[\\.!\\?]+";;
     private SentenceParser sentenceParser=new SentenceParser();
 
     @Override

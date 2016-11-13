@@ -14,7 +14,8 @@ import java.util.stream.Collectors;
  */
 public class TextReader {
 
-    static final Logger LOG= LogManager.getLogger();
+    private final static String DELIMITER_FOR_LINES=" ";
+    private static final Logger LOG= LogManager.getLogger();
     private BufferedReader reader;
 
     public TextReader(String fileIn) {
@@ -37,7 +38,7 @@ public class TextReader {
         for(String str : stringList)
         {
             stringBuilder.append(str);
-            stringBuilder.append(' ');
+            stringBuilder.append(DELIMITER_FOR_LINES);
         }
         text=stringBuilder.toString();
         return text;

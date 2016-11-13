@@ -1,6 +1,57 @@
-It has survived not only five centuries, but also the leap into 13+(3++) electronic --3 typesetting, remaining 3+5- essentially 6+9*(3-4) unchanged. It was popularised in the 5*(1*2*(3*(4*(5-4)-3)-2)-1) with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using (0-(2*2*(3*(2-1/2*2)-2)-10/2))*(++5) Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-It is a (-5+1/2*(2+5*2))*1200 established fact that a reader will be of a page when looking at its layout. 
-Hello. 
+It has survived not only five centuries, but also the leap into 16 electronic 2 typesetting, remaining 8 essentially -3 unchanged. It was popularised in the -24 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using -102 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+It is a -6000 established fact that a reader will be of a page when looking at its layout. 
+How are you? Hello. 
 
-4
+<-----------------------Sort sentences by number of lexemes----------------------->
+Hello. 
+How are you? 
+It is a -6000 established fact that a reader will be of a page when looking at its layout. 
+It has survived not only five centuries, but also the leap into 16 electronic 2 typesetting, remaining 8 essentially -3 unchanged. 
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+The point of using -102 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+It was popularised in the -24 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+<--------------------------------------------------------------------------------->
+<-----------------------Swap first and last lexeme in sentence----------------------->
+unchanged. has survived not only five centuries, but also the leap into 16 electronic 2 typesetting, remaining 8 essentially -3 It 
+Ipsum. was popularised in the -24 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem It 
+layout. is a long established fact that a reader will be distracted by the readable content of a page when looking at its It 
+English. point of using -102 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable The 
+layout. is a -6000 established fact that a reader will be of a page when looking at its It 
+you? are How 
+Hello. 
+<------------------------------------------------------------------------------------->
+<--------------------------Sort lexemes------------------------>
+'Content  
+-102  -24  -3  -6000  
+16  
+2  
+8  
+Aldus  
+English.  
+Hello.  How  
+Ipsum  Ipsum  Ipsum.  It  It  It  It  
+Letraset  Lorem  Lorem  
+PageMaker  
+The  
+a  a  a  a  a  a  a  also  and  are  as  at  at  
+be  be  but  by  
+centuries,  containing  content  content  
+desktop  distracted  distribution  
+electronic  essentially  established  established  
+fact  fact  five  
+has  has  here',  here,  
+in  including  into  is  is  is  it  it  its  its  
+layout.  layout.  leap  letters,  like  like  long  look  looking  looking  
+making  more  more-or-less  
+normal  not  
+of  of  of  of  of  of  only  opposed  
+page  page  passages,  point  popularised  publishing  
+readable  readable  reader  reader  recently  release  remaining  
+sheets  software  survived  
+that  that  that  the  the  the  the  to  typesetting,  
+unchanged.  using  using  
+versions  
+was  when  when  will  will  with  with  
+you?  
+<-------------------------------------------------------------->
