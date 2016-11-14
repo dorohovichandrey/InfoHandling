@@ -3,7 +3,6 @@ package by.dorohovich.infohandling.calculator.parser;
 import by.dorohovich.infohandling.calculator.expression.AbstractExpression;
 import by.dorohovich.infohandling.calculator.expression.NonTerminalExpressionNumber;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -13,17 +12,15 @@ import java.util.StringTokenizer;
  */
 public class MathExParser {
 
-    private final static String DELIMETERS="-(-3-2)*9--+--3";
+    private final static String DELIMITERS="+-id*/()";
     private final static String REGEX_FOR_INC="\\+\\+";
     private final static String REGEX_FOR_DEC="--";
     private final static String SYMBOL_FOR_INC="i";
     private final static String SYMBOL_FOR_DEC="d";
-    private final static String SYMBOL_FOR_UNARY_MINUS="m";
 
     private OperationStack operationStack;
     private List<AbstractExpression> expressionList;
     private boolean isPrevNumberOrCloseBracket = false;
-
 
 
     public List<AbstractExpression> parseIntoPolishNotation(String mathExpr)
@@ -31,7 +28,7 @@ public class MathExParser {
         operationStack=new OperationStack();
         expressionList=new ArrayList<AbstractExpression>();
         mathExpr=replaceUnaryOperators(mathExpr);
-        StringTokenizer st=new StringTokenizer(mathExpr, "+-id*/()", true);
+        StringTokenizer st=new StringTokenizer(mathExpr,DELIMITERS, true);
         while (st.hasMoreTokens())
         {
             handleToken(st.nextToken());
